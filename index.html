@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trash to Cash</title>
+
+    <style>
+        body {
+            background-color: #c6ecc6;
+
+            margin: 0; 
+            display: flex;
+            flex-direction: column;
+            height: 100vh; 
+        }
+
+        h1 {
+            text-align: center; 
+            font-size: 60px; 
+            font-weight: 600;
+            font-family: Verdana, sans-serif; 
+            font-stretch: condensed; 
+            margin-bottom: 0;
+            color: #302e2e;
+
+        }
+
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            grid-template-rows: repeat(3, 1fr); 
+            gap: 40px; 
+            margin: 50px;
+            margin-top: 40px; 
+        }
+
+        .button {
+            width: 33;
+            height: 185px;
+            border: none;
+            border-radius: 20px; 
+            background-color: #809e62; 
+            color: #ffffff; 
+            font-size: 16px;
+            font-family: Verdana, sans-serif; 
+            font-stretch: condensed;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+
+            flex-direction: row; 
+            justify-content: center; 
+            align-items: center; 
+        }
+
+        .button img {
+            width: auto;
+            height: 100px; 
+            display: block;
+            margin: 0 auto; 
+            margin-bottom: 20px;
+
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+
+        .footer-button {
+            width: 80%;
+            height: 80px;
+            background-color: #ffffff;
+            color: rgb(83, 79, 79);
+            text-align: start;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+
+            /* text */
+            font-size: 25px;
+            font-family: Verdana, sans-serif; 
+            font-stretch: condensed; 
+            font-weight: bold;
+
+        }
+
+        .footer-button img {
+            width: auto; 
+            height: 100px;
+            display: block;
+            margin: 0; 
+            float: left; 
+
+        }
+
+        .footer-button:hover {
+            background-color: #c9ceca; 
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <h1>Trash to Cash</h1>
+    
+    <div class="button-grid">
+        <button class="button" onclick="location.href='garbage.html'">
+            <img src="fountainDrink.png">
+            <span>Fountain Drink Cups</span>
+        </button>
+        
+        <button class="button" onclick="location.href='organics.html'">
+            <img src="compostableFoodContainer.png">
+            <span>Compostable Food Container</span>
+        </button>        
+        
+        <button class="button" onclick="location.href='paper.html'">
+            <img src="papertakeOutBags.png">
+            <span>Paper Take Out Bags</span>
+        </button>
+
+        <button class="button" onclick="location.href='paper.html'">
+            <img src="WaxCoatedFoodWrappingPaper.png">
+            <span>Wax-Coated Food Wrapping Paper</span>
+        </button>        
+        
+        <button class="button" onclick="location.href='recycling.html'">
+            <img src="juiceBox.png">
+            <span>Milk Cartons and Juice Boxes</span>
+        </button>
+        
+        <button class="button" onclick="location.href='paper.html'">
+            <img src="WaxCoatedFoodWrappingPaper.png">
+            <span>Wax-Coated Food Wrapping Paper</span>
+        </button>
+
+        <button class="button" onclick="location.href='organics.html'">
+            <img src="food.png">
+            <span>Food Waste</span>
+        </button>        
+        
+        <button class="button" onclick="location.href='recycling.html'">
+            <img src="plastic.png">
+            <span>Plastic Cups & Food Packages</span>
+        </button>        
+        
+        <button class="button" onclick="location.href='recycling.html'">
+            <img src="lids.png">
+            <span>Coffee Cups Lids</span>
+        </button>
+        
+    </div>
+
+    <button class="footer-button" onclick="window.location.href='contact.html'">
+        <img src="search.png">
+        <span>Search</span>
+    </button>
+  
+</body>
+
+</html>
